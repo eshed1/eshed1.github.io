@@ -1,0 +1,6 @@
+@inproceedings{ohnbar14,
+title={Fast and Robust Object Detection Using Visual Subcategories},
+author={Eshed Ohn-Bar and Mohan M. Trivedi},
+booktitle={Computer Vision and Pattern Recognition Workshops-Mobile Vision}, 
+year={2014}
+}

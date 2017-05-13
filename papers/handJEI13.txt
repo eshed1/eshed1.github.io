@@ -1,0 +1,9 @@
+@article{jei,
+AUTHOR = "Eshed Ohn-Bar and Sujitha Martin and Mohan M. Trivedi",
+TITLE = "Driver Hand Activity Analysis in Naturalistic Driving Studies: Issues, Algorithms and Experimental Studies",
+booktitle = "Journal of Electronic Imaging",
+YEAR = "2013",
+volume = "22",
+issue = "4",
+pages = "041119:1-041119:10",
+}

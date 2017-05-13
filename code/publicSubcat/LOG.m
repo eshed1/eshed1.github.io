@@ -1,0 +1,10 @@
+%Version History
+
+% Ver 0.0: 12/5/2014 - first release
+
+% Ver 0.1: 12/22/2014 - minor fixes to acfTrain in how subcategory samples
+% are excluded. See acfTrain_subcat.m
+% Clustering code has been added. 
+
+% Ver 0.2: 02/06/2015 - fixed major bug in how ignore boxes were handled (they were mined from, which is incorrect). Cleaned up % code. Validation set training/testing has been added, our performance is 71% AP (using KITTI evaluation C++ code) on moderate 
+% settings. Great thanks to Rakesh and others for highlighting these issues.

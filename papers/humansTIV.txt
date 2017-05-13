@@ -1,0 +1,6 @@
+@article{humansTIV,
+    Author = {Eshed Ohn-Bar and Mohan M. Trivedi},
+    Title = {Looking at Humans in the Age of Self-Driving and Highly Automated Vehicles},
+    Journal = {IEEE Transactions on Intelligent Vehicles},
+    Year = {2016}
+}

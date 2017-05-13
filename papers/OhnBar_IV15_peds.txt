@@ -1,0 +1,6 @@
+@inproceedings{ohnbar_pedspatterns15,
+title={Can appearance patterns improve pedestrian detection?},
+author={E. Ohn-Bar and M. M. Trivedi},
+booktitle={IEEE Intell. Veh. Symp.}, 
+year={2015}
+}

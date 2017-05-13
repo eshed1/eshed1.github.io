@@ -1,0 +1,6 @@
+@inproceedings{ohnbar13,
+title={The Power is in Your Hands: {3D} Analysis of Hand Gestures in Naturalistic Video},
+author={Eshed Ohn-Bar and Mohan M. Trivedi},
+booktitle={Computer Vision and Pattern Recognition Workshops-AMFG}, 
+year={2013}
+}

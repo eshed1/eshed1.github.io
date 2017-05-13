@@ -1,0 +1,1 @@
+<br> <a href="./code/HOG2.zip"> code for HOG² <font color="red">[*NEW*]</font></a>  (Size: 95.2 MB - thanks to Chevil Leo from the University of Science and Technology of China for the implmentation - MSR Hand Gesture dataset results are <strong>93.03%</strong>)

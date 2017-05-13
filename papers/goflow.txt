@@ -1,0 +1,6 @@
+@inproceedings{ramirezflow14,
+title={Go with the Flow: Improving Multi-View Vehicle Detection with Motion Cues},
+author={A. Ramirez and E. Ohn-Bar and M. M. Trivedi},
+booktitle={IEEE Intl. Conf. Pattern Recognition}, 
+year={2014}
+}

@@ -1,0 +1,9 @@
+@article{OhnBar2015,
+title={On surveillance for safety critical events: In-vehicle video networks for predictive driver assistance systems},
+author={Eshed Ohn-Bar and Ashish Tawari and Sujitha Martin and Mohan M. Trivedi},
+booktitle={Computer Vision and Image Understanding}, 
+year={2015},
+volume={134},
+number={},
+pages={130-140},
+}

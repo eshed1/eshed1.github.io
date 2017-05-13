@@ -1,0 +1,6 @@
+@inproceedings{Nattoji_ITSC14,
+title={An Exploration of Why and When Pedestrian Detection Fails},
+author={Rakesh N. Rajaram and Eshed Ohn-Bar and Mohan M. Trivedi},
+booktitle={IEEE Conf. Intelligent Transportation Systems}, 
+year={2015},
+}

@@ -1,0 +1,6 @@
+@ARTICLE{vehicles_TITS15, 
+ author={E. Ohn-Bar and M. M. Trivedi}, 
+ journal={IEEE Transactions on Intelligent Transportation Systems}, 
+ title={Learning to Detect Vehicles by Clustering Appearance Patterns}, 
+ year={2015}, 
+}

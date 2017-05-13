@@ -1,0 +1,6 @@
+@inproceedings{khosroshahi16,
+title={Surround Vehicles Trajectory Analysis with Recurrent Neural Networks},
+author={Aida Khosroshahi and Eshed Ohn-Bar and Mohan M. Trivedi},
+booktitle={IEEE Conf. Intell. Transp. Syst.}, 
+year={2016}
+}

@@ -1,0 +1,6 @@
+@inproceedings{ramirez3,
+title={Panoramic Stitching for Driver Assistance and Applications to Motion Saliency-based Risk Analysis},
+author={Alfredo Ramirez and Eshed Ohn-Bar and Mohan M. Trivedi},
+booktitle={IEEE Conf. Intell. Transp. Syst.}, 
+year={2013}
+}

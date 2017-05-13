@@ -1,0 +1,6 @@
+@article{ohnbar_imp_PR,
+    Author = {Eshed Ohn-Bar and Mohan M. Trivedi},
+    Title = {Are All Objects Equal? Deep Spatio-Temporal Importance Prediction in Driving Videos},
+    Journal = {Pattern Recognition},
+    Year = {2017}
+}

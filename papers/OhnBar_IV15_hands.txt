@@ -1,0 +1,6 @@
+@inproceedings{ohnbar_comphands15,
+title={A Comparative Study of Color and Depth Features for Hand Gesture Recognition in Naturalistic Driving Settings},
+author={E. Ohn-Bar and M. M. Trivedi},
+booktitle={IEEE Intell. Veh. Symp.}, 
+year={2015}
+}

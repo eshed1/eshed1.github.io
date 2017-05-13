@@ -1,0 +1,6 @@
+@ARTICLE{hands_TITS16, 
+ author={Akshay Rangesh and E. Ohn-Bar and M. M. Trivedi}, 
+ journal={IEEE Transactions on Intelligent Transportation Systems}, 
+ title={Long-term, Multi-Cue Tracking of Hands in Vehicles}, 
+ year={2016}, 
+}

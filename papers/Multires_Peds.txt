@@ -1,0 +1,7 @@
+@ARTICLE{multires_TITS16, 
+ author={Rakesh Nattoji Rajaram and E. Ohn-Bar and M. M. Trivedi}, 
+ journal={IEEE Transactions on Intelligent Transportation Systems}, 
+ title={Looking at Pedestrians at Different Scales: A Multiresolution Approach and Evaluations}, 
+ year={2016}, 
+}
+

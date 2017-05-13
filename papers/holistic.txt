@@ -1,0 +1,6 @@
+@inproceedings{ohnbar_holistic14,
+title={Predicting Driver Maneuvers by Learning Holistic Features},
+author={E. Ohn-Bar and A. Tawari and S. Martin and M. M. Trivedi},
+booktitle={IEEE Intell. Veh. Symp.}, 
+year={2014}
+}

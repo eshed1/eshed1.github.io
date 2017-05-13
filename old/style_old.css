@@ -1,0 +1,45 @@
+/* color all links green, all main text black */
+a { text-decoration: none; color: #03C; }
+a:hover { text-decoration: underline; color: #03C; }
+p, ul, ol, li, h1, h2, h3, h4, h5, h6 { color: #BBBBBB; }
+
+/* heading tags */
+h1, h2 { font-weight: normal; margin: 0px; padding: 0px }
+h1 { color: #DDDDDD; font-size: 3.1em; margin-left: -25px; padding-top: 20px; }
+h2 { color: #CCCCCC; font-size: 1.8em; padding-top: 12px; }
+h3 { color: #BBBBBB; font-size: 1.1em; }
+
+/* page layout */
+html, body { height: 100%; margin: 0; padding: 0; }
+.page { position: relative; margin: 0 auto; width: 900px;
+   height: auto !important; height: 100%; min-height: 100%; }
+.pagemenu, .pagemain { position: absolute; top: 0%; height: 100%; }
+.pagemenu { left:   730px; width: 160px; text-align: center; overflow: hidden; }
+.pagemain { left: 0px; width: 640px; padding: 0px 50px; overflow: auto; }
+
+/* page background colors */
+html, body { background-color: #DDD;}
+.pagemenu { background-color: #CCC; }
+.pagemain { background-color: #FFF; }
+
+/* menu style */
+#menuTop { padding-top: 20px; font-size: 2em; }
+/*#menuPiotr { color:#ffffff; }*/
+/*#menuDollar { color:#4cc584; }*/
+/*#menuTop img { width: 151px; height: 153px; margin-bottom: 12px }*/
+ul.menuList { margin: 0; padding: 0; }
+ul.menuList li {
+  margin-left: 15px; padding: 10px 0 10px 20px; list-style: none;
+ /* background: url("files/images/GreenSquare.jpg") no-repeat center left;*/
+  text-align: left; vertical-align: middle; color: #ffffff;
+  font-size: 1em; font-weight: 600; font-family: Helvetica, sans-serif;
+}
+ul.menuList a { color: #ffffff; }
+ul.menuList a:hover { color: #03C; text-decoration: none; }
+
+/* other */
+.justified-big { text-align: justify; font-size: 1.125em }
+.indent { padding-left: 40px; }
+.citations { padding-left: 40px; font-size:.9em }
+.citations a { color:#1090C0; }
+ul.cv li, ol.cv li { padding-top: 4px; padding-bottom: 12px; }

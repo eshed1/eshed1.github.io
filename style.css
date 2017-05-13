@@ -1,0 +1,24 @@
+body {
+ margin: 0;
+ padding: 0;
+ background-color: #ffffff;
+ 
+ font-size:0.8em;
+ text-align: center;
+}
+
+.shadow {
+	-moz-box-shadow: 0px 4px 10px #111;
+	-webkit-box-shadow: 0px 4px 10px #111;
+	box-shadow: 0px 4px 10px #111;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#aaaaaa')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#aaaaaa');
+}
+
+
+span.title{
+	font: 12pt "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+	font-style: bold;
+}

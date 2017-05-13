@@ -1,0 +1,6 @@
+@inproceedings{ramirez14,
+title={Integrating Motion and Appearance for Overtaking Vehicle Detection},
+author={A. Ramirez and E. Ohn-Bar and M. M. Trivedi},
+booktitle={IEEE Intell. Veh. Symp.}, 
+year={2014}
+}

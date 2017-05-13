@@ -1,0 +1,10 @@
+@ARTICLE{hands_TITS14, 
+ author={E. Ohn-Bar and M. M. Trivedi}, 
+ journal={IEEE Transactions on Intelligent Transportation Systems}, 
+ title={Hand Gesture Recognition in Real Time for Automotive Interfaces: A Multimodal Vision-Based Approach and Evaluations}, 
+ year={2014}, 
+ month={Dec}, 
+ volume={15}, 
+ number={6}, 
+ pages={2368-2377}, 
+ }

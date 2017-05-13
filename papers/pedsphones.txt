@@ -1,0 +1,6 @@
+@inproceedings{pedphones,
+title={Pedestrians and their Phones - Detecting Phone-based Activities of Pedestrians for Autonomous Vehicles},
+author={Akshay Rangesh and Eshed Ohn-Bar and Kevan Yuen and Mohan M. Trivedi},
+booktitle={IEEE Conf. Intell. Transp. Syst.}, 
+year={2016}
+}

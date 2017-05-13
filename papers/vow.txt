@@ -1,0 +1,6 @@
+@inproceedings{vow14,
+title={Vision on Wheels: Looking at Driver, Vehicle, and Surround for On-Road Maneuver Analysis},
+author={Eshed Ohn-Bar and Ashish Tawari and Sujitha Martin and Mohan M. Trivedi},
+booktitle={Computer Vision and Pattern Recognition Workshops-Mobile Vision}, 
+year={2014}
+}
