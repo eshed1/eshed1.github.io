@@ -1,6 +1,6 @@
 @inproceedings{refinenetTIV17,
 title={{RefineNet}: Refining Object Detectors for Autonomous Driving},
-author={Eshed Ohn-Bar and Rakesh N. Rajaram and Mohan M. Trivedi},
+author={Rakesh N. Rajaram and Eshed Ohn-Bar and Mohan M. Trivedi},
 booktitle={IEEE Transactions on Intelligent Vehicles}, 
 year={2017}
 }
