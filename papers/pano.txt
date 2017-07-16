@@ -1,0 +1,6 @@
+@inproceedings{pano,
+title={Multi-Perspective Vehicle Detection and Tracking: Challenges, Dataset, and Metrics},
+author={J. V. Dueholm and M. S. Kristoffersen and R. Satzoda and E. Ohn-Bar and T. B. Moeslund and M. M. Trivedi},
+booktitle={IEEE Conf. Intell. Transp. Syst.}, 
+year={2016}
+}
