@@ -1,6 +1,6 @@
 @article{ping,
     Author = {E. Ohn-Bar and Kris Kitani and Chieko Asakawa},
     Title = {Personalized Dynamics Models for Adaptive Assistive Navigation Systems},
-    Journal = {Conference on Robot Learning},
+    Journal = {Arxiv},
     Year = {2018}
 }
