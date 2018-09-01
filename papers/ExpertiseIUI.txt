@@ -1,0 +1,6 @@
+@inproceedings{expertise18,
+title={Modeling Expertise in Assistive Navigation Interfaces for Blind People},
+author={E. Ohn-Bar and J. Guerreiro and D. Ahmetovic and K. Kitani and C. Asakawa},
+booktitle={Intelligent User Interfaces}, 
+year={2018}
+}

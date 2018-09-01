@@ -1,0 +1,6 @@
+@inproceedings{smartpartnet,
+title={SmartPartNet: Part-Informed Person Detection for Body-Worn Smartphones},
+author={H. Yu and E. Ohn-Bar and D. Yoo and K. Kitani},
+booktitle={Winter Conference on Applications of Computer Vision}, 
+year={2018}
+}

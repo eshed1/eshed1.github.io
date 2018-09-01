@@ -1,0 +1,6 @@
+@inproceedings{jw4a2018,
+title={How Context and User Behavior Affect Indoor Navigation Assistance for Blind People},
+author={J. Guerreiro and E. Ohn-Bar and D. Ahmetovic and K. Kitani and C. Asakawa},
+booktitle={International Cross-Disciplinary Conference on Web Accessibility}, 
+year={2018}
+}

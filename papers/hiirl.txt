@@ -1,0 +1,6 @@
+@article{hiirl,
+    Author = {X. Pan and E. Ohn-Bar and N. Rhinehart and Y. Xu and Y. Shen and K. M. Kitani},
+    Title = {Human-Interactive Subgoal Supervision for Efficient Inverse Reinforcement Learning},
+    Journal = {International Conference on Autonomous Agents and Multiagent Systems},
+    Year = {2018}
+}

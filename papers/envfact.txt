@@ -1,0 +1,6 @@
+@inproceedings{envfactors,
+title={Environmental Factors in Indoor Navigation Based on Real-World Trajectories of Blind Users},
+author={H. Kacorri and E. Ohn-Bar and K. Kitani and C. Asakawa},
+booktitle={Human Factors in Computing Systems}, 
+year={2018}
+}

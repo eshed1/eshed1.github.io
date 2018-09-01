@@ -1,0 +1,6 @@
+@inproceedings{ohnbar_ubi18,
+title={Variability in Reactions to Instructional Guidance during Smartphone-Based Assisted Navigation of Blind Users},
+author={E. Ohn-Bar and J. Guerreiro and K. Kitani and C. Asakawa},
+booktitle={International Joint Conference on Pervasive and Ubiquitous Computing}, 
+year={2018}
+}
