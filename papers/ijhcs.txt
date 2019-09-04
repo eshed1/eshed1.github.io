@@ -1,0 +1,5 @@
+@inproceedings{ijhcs19,
+title={Virtual Navigation for Blind People: Transferring Route Knowledge to the Real-World},
+author={J. Guerreiro and D. Sato and D. Ahmetovic and E. Ohn-Bar and K. Kitani and C. Asakawa},
+booktitle={International Journal of Human-Computer Studies}, 
+year={2019}

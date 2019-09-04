@@ -1,0 +1,6 @@
+@inproceedings{peds_RSS19,
+title={Towards Understanding Interaction of Visually Impaired Navigators with Surrounding Pedestrians},
+author={E. Ohn-Bar and J. Guerreiro and D. Ahmetovic and K. Kitani and C. Asakawa},
+booktitle={RSSW}, 
+year={2019}
+}

@@ -1,0 +1,6 @@
+@inproceedings{collision2019,
+title={Forecasting Time-To-Collision from Monocular Video: Feasibility, Dataset, and Challenges},
+author={A. Manglik and X. Weng and E. Ohn-Bar and K. Kitani},
+booktitle={IROS}, 
+year={2019}
+}

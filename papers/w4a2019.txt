@@ -1,0 +1,6 @@
+@inproceedings{expertise_w4a2019,
+title={Impact of Expertise on Interaction Preferences for Navigation Assistance of Visually Impaired Individuals},
+author={D. Ahmetovic and J. Guerreiro and E. Ohn-Bar and K. Kitani and C. Asakawa},
+booktitle={Web for All Conference}, 
+year={2019}
+}
