@@ -1,6 +1,0 @@
-@inproceedings{aexp4,
-title={A-EXP4: Online Social Policy Learning for Adaptive Robot-Pedestrian Interaction},
-author={P. Jin and E. Ohn-Bar and K. Kitani and C. Asakawa},
-booktitle={IROS}, 
-year={2019}
-}
