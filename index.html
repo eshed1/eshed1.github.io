@@ -101,6 +101,103 @@ a, a:visited { color : #0080ff; }
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
+<style>
+* {
+	outline:none;
+ -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+		 box-sizing: border-box;
+}
+
+html, body {min-height: 100vh;}
+
+.timeline {
+	width:800px;
+	height: 20px;
+	list-style: none;
+	text-align: justify;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255,255,255,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgba(255,255,255,0)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255,255,255,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255,255,255,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255,255,255,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(0,0,0,1) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+}
+
+.timeline:after {display: inline-block; content: ""; width: 100%;}
+
+.timeline li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #09795D;
+	text-align: center;
+	line-height: 1.2;
+	position: relative;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+
+.timeline li:before {
+	display: inline-block;
+	content: attr(data-year);
+	font-size: 18px;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.timeline li:nth-child(odd):before {
+	top: -20px;
+}
+.timeline li:nth-child(even):before {
+	top: -20px;
+}
+
+.timeline li:after {
+	display: inline-block;
+	content: attr(data-text);
+	font-size: 16px;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.timeline li:nth-child(odd):after {
+	bottom: 0;
+	margin-bottom: -5px;
+	-webkit-transform: translate(-50%, 100%);
+	   -moz-transform: translate(-50%, 100%);
+	    -ms-transform: translate(-50%, 100%);
+	     -o-transform: translate(-50%, 100%);
+	        transform: translate(-50%, 100%);
+}
+.timeline li:nth-child(even):after {
+	bottom: 0;
+	margin-bottom: -5px;
+	-webkit-transform: translate(-50%, 100%);
+	   -moz-transform: translate(-50%, 100%);
+	    -ms-transform: translate(-50%, 100%);
+	     -o-transform: translate(-50%, 100%);
+	        transform: translate(-50%, 100%);
+}
+</style>
 
 </head>
 <body>
@@ -128,11 +225,12 @@ a, a:visited { color : #0080ff; }
 </div>
 
 
+<!--  mobility !-->
 <div class="container">
     <a name="About"></a>
     <h2>About me</h2>
 	My research is in machine intelligence for real-world, embodied, assistive and autonomous systems. 
-	Specifically, I have developed and evaluated learning, perception, planning, and control systems for safety-critical applications in mobility and transportation&ndash;including autonomous driving and assisted navigation to people with visual impairments. 
+	Specifically, I have developed and evaluated learning, perception, planning, and control systems for safety-critical applications in <strong>navigation and transportation</strong>&ndash;including autonomous driving and assisted navigation to people with visual impairments. 
 	<br>
 </div>
 
@@ -147,16 +245,28 @@ a, a:visited { color : #0080ff; }
 	the best industry related paper award finalist at ICPR 2014, and the best paper award at the IEEE Workshop on Analysis and Modeling of Faces and Gestures at CVPR 2013. 
 	He co-organized several workshops on hand activity modeling and vision-based challenges for intelligent vehicles at CVPR, ICCV, and IV conferences. 
 	Eshed received the BS degree in mathematics from UCLA in 2010, MEd from UCLA in 2011, and the PhD degree in electrical engineering from UCSD in 2017.
-
-	<br>
+	<br> 
+	<br> 
+	<br> 
+	<ul class="timeline">
+	<a href="https://www.krafael.org.il/en/"><li data-year="2005" data-text="Rafael Village, Volunteer"></li></a>
+	<li data-year="2010" data-text="UCLA, B.S. Math"></li>
+	<a href="https://en.wikipedia.org/wiki/Theodore_Roosevelt_High_School_(Los_Angeles)"><li data-year="2011" data-text="Roosevelt High, Instructor"></li></a>
+	<li data-year="2015" data-text="Apple, SPG"></li></a>
+	<li data-year="2017" data-text="UCSD, Ph.D. EE"></li></a>
+	<li data-year="2018" data-text="CMU"></li>
+	<a href="https://avg.is.tuebingen.mpg.de/"><li data-year="2019" data-text="MPI Intelligent Systems"></li></a>
+</ul>
+<br>
 </div>
+
 
 	<a name="News"></a>
 <div class="container">
     <h2>News</h2>
    <ul>
 
-<li>I will be joining Boston University's ECE department as an Assistant Professor in 2020! <strong>If you are interested in joining the lab to research machine learning, robotics, and computer vision for intelligent systems, please get in touch.</strong>  
+<li>I will be joining Boston University's ECE department as an Assistant Professor in 2020! <strong>If you are interested in joining the lab to research machine learning and perception for intelligent systems, please get in touch.</strong>  
 <li>10/29/18: <strong>Like challenging trajectory prediction problems?</strong> Check out the <a href="https://github.com/eshed1/PING">Github</a> from our CoRL paper.
 <li>10/29/18: Received a Humboldt fellowship, visiting MPI and working with <a href = "http://www.cvlibs.net/">Andreas Geiger</a>.
 <li>05/07/18: Talked about human-centered autonomous vehicles at the <a href="https://itspodcast.com/its-podcast-episode-46-aeromedical-transportation-hand-uber-aftermath-and-india-goes-electric/">ITS Podcast</a>.
@@ -172,6 +282,8 @@ a, a:visited { color : #0080ff; }
 <li>08/26/14: Best industry related paper award (BIRPA) runner up at ICPR 2014!
 <li>06/28/13: Best paper award at the IEEE Workshop on Analysis and Modeling of Faces and Gestures (with CVPR, 2013)!
 </div>
+
+	
 
 	<a name="Research"></a>
 <div class="container">
@@ -804,7 +916,7 @@ a, a:visited { color : #0080ff; }
 	    <p><strong><a href="./papers/.pdf">A-EXP4: Online Social Policy Learning for Adaptive Robot-Pedestrian Interaction</a></strong><br>
 	    P. Jin, <strong>E. Ohn-Bar</strong>, K. Kitani, and C. Asakawa<br>
 	    <em>International Conference on Intelligent Robots and Systems (<strong>IROS</strong>)</em>, 2019<br>
-		[<a href="./papers/.pdf">pdf</a> | <a href="./papers/.txt">bibtex</a>]
+		[<a href="./papers/aexp4_IROS19.pdf">pdf</a> | <a href="./papers/aexp4.txt">bibtex</a>]
     </div>
 	<br>
 	
@@ -1181,7 +1293,7 @@ a, a:visited { color : #0080ff; }
 <a name="2013">2013</a> <hr style="height:3px;border:none;color:#808080;background-color:#808080;margin-top: -12px;margin-left: 50px;top: 50%;width: 100%;content: "";display: inline-block;"/>
 <!--
 <li><p align="left"><strong>Driver Hand Activity Analysis in Naturalistic Driving Studies: Issues, Algorithms and Experimental Studies</strong><br/>
-<strong><strong>E. Ohn-Bar</strong></strong>, S. Martin, and M. Trivedi, <em>Journal of Electronic Imaging: special section on Video Surveillance and Transportation Imaging Applications</em>, vol. 22, No. 4, 2013. [<a href="./papers/hand_JEI13.pdf">pdf</a> | <a href="./papers/handJEI13.txt">bibtex</a> ]   </p></li>
+<strong><strong>E. Ohn-Bar</strong></strong>, S. Martin, and M. Trivedi, <em>Journal of Electronic Imaging: special section on Video Surveillance and Transportation Imaging Applications</em>, vol. 22, No. 4, 2013.Â [<a href="./papers/hand_JEI13.pdf">pdf</a> | <a href="./papers/handJEI13.txt">bibtex</a> ]   </p></li>
 -->
     <div class="publication">
 			<a href="./papers/hand_JEI13.pdf"><img src="./images/jei.png" class="publogo" width="150" height = "120"></a>
@@ -1252,7 +1364,6 @@ a, a:visited { color : #0080ff; }
 <div class="container">
 
 </div>
-
 </body>
 
 
