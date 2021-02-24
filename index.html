@@ -78,7 +78,7 @@ background: rgb(255,255,255);
 #bio { height : 350px; position: relative; float : left; width : 650px; }
 #me { border : 0 solid black; margin-bottom : 30px; border-radius : 20px; }
 #sidebar { margin-right : 50px; border : 0 solid black; float : left; margin-bottom : 0;}
-#sidebar2 { margin-left : 10px; border : 0 solid black; float : left; margin-bottom : 0;}
+#sidebar2 { margin-right : 50px; border : 0 solid black; float : left; margin-bottom : 0;}
 a { text-decoration : none; }
 a:hover { text-decoration : underline; }
 a, a:visited { color : #0080ff; }
@@ -206,30 +206,31 @@ html, body {min-height: 100vh;}
 <div class="title">
     <div id="bio">
         <div style="position:absolute;top:70px;">
-		<img src="./images/H2Xlogo.svg" width="80%">
-			<br>
-            <p style="line-height:23px;">Eshed Ohn-Bar<br>
-            <p style="line-height:23px;">Assistant Professor<br>
-            Boston University<br>
-            Email: <a href="mailto:eohnbar@gmail.com">eohnbar [at] gmail [dot] com</a></p>
-			<br>
-            <!-- <p class="external"><a href="https://scholar.google.com/citations?user=p9zVBV4AAAAJ&hl=en&oi=ao">Google Scholar</a></p>
-			<a href="eohnbar_cv.pdf" class="first">CV</a>&bull; !-->
-            <a style="text-decoration: underline; text-underline: single" href="#About">About</a> |
+		<img src="./images/H2Xlogo.svg" width="90%">
+		<br>
+			<a style="text-decoration: underline; text-underline: single" href="#About">About</a> |
     <a style="text-decoration: underline; text-underline: single" href="#News">News</a> |
     <a style="text-decoration: underline; text-underline: single" href="#Research">Research</a> |
 	<a style="text-decoration: underline; text-underline: single" href="#People">People</a> |
 	<a style="text-decoration: underline; text-underline: single" href="#Publications">Publications</a> |
 	<a style="text-decoration: underline; text-underline: single" href="#ProfessionalActivity">Professional Activity</a> |
-<a style="text-decoration: underline; text-underline: single" href="https://scholar.google.com/citations?user=p9zVBV4AAAAJ&hl=en&oi=ao">Scholar</a> 
+<a style="text-decoration: underline; text-underline: single" href="https://scholar.google.com/citations?user=p9zVBV4AAAAJ&hl=en&oi=ao">Scholar</a>
+			<br><br>		
+            <p style="line-height:23px;">Eshed Ohn-Bar<br>
+            Assistant Professor<br>
+			Boston University<br>
+            Email: <a href="mailto:eohnbar@gmail.com">eohnbar [at] gmail [dot] com</a></p>
+            <!-- <p class="external"><a href="https://scholar.google.com/citations?user=p9zVBV4AAAAJ&hl=en&oi=ao">Google Scholar</a></p>
+			<a href="eohnbar_cv.pdf" class="first">CV</a>&bull; !-->
+           
 <br>
         </div>
     </div>
-       <div id="sidebar"> &#8287;  &#8287;  &#8287; <img src="images/fig_website.jpg" id="eshed" width="280" itemprop="photo" style="border-radius: 30px 30px 30px 30px; box-shadow: 0px 0px 10px #888;"  /></div>
+       <div id="sidebar" style="position:absolute;top:125px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <img src="images/fig_website2.jpg" id="eshed" width="200" itemprop="photo" style="border-radius: 30px 30px 30px 30px; box-shadow: 0px 0px 10px #888;"  /></div>
 </div>
 
 
-<!-- In particular, we are interested in advancing the state-of-the-art of systems that can efficiently understand and adaptively interact with humans in their environment. 
+<!-- left:1200px; In particular, we are interested in advancing the state-of-the-art of systems that can efficiently understand and adaptively interact with humans in their environment. 
       !-->
 <div class="container">
     <a name="About"></a>
@@ -241,7 +242,7 @@ html, body {min-height: 100vh;}
     We currently focus on data-driven perception, planning, and control systems ('X' in H2X) for safety-critical applications in <strong>navigation and transportation</strong>&ndash;including autonomous driving and assisted navigation to people with visual impairments. 
 	<br>
 	<br> 
-	<strong>If you are interested in joining the lab to research machine learning and perception for intelligent and assistive systems, please email me your CV.</strong>  
+	<strong>If you are interested in joining the lab to research machine learning and perception for intelligent systems, please email me your CV.</strong>  
 </div>
 
 <div class="container">
@@ -908,6 +909,7 @@ html, body {min-height: 100vh;}
 
 <div class="container">
 	<a name="People"></a>
+	<div id="bio">
 	<h2>People</h2>
 	<ul>
 	<li>Jimuyang (Jim) Zhang
@@ -923,8 +925,9 @@ html, body {min-height: 100vh;}
 	<li>Saahil Sood
 	<li>Soumya Suman
 	</ul>
-	<!--   <div id="sidebar2"><img src="images/lab.jpg" id="lab" width="450" itemprop="photo" style="border-radius: 30px 30px 30px 30px; box-shadow: 0px 0px 10px #888;"  /></div>
-!-->
+	</div>
+	 <div id="sidebar2" style="position:absolute;left:700px;"><img src="images/lab.jpg" id="lab" width="480" itemprop="photo" style="border-radius: 30px 30px 30px 30px; box-shadow: 0px 0px 10px #888;"/></div>
+<!--<div id="sidebar" style="position:absolute;top:125px;"> style="position:absolute;left:700px;" !-->
 </div>
 
 <div class="container">
