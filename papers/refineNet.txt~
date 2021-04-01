@@ -1,6 +1,0 @@
-@inproceedings{refinenet16,
-title={{RefineNet}: {I}terative Refinement for Accurate Object Localization},
-author={Rakesh N. Rajaram and Eshed Ohn-Bar and Mohan M. Trivedi},
-booktitle={IEEE Conf. Intell. Transp. Syst.}, 
-year={2016}
-}
