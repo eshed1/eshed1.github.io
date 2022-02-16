@@ -1,0 +1,15 @@
+theme: jekyll-theme-cayman
+title: 'AVA: Accessibility, Vision, and Autonomy Meet'
+description:
+- CVPR 2022 workshop
+- June 20, 2022
+- New Orleans, Louisiana
+buttons:
+  Overview: './index.html'
+  Invited speakers: './index.html#invited-speakers'
+  Call for papers: './index.html#topics'
+  Challenge details: './index.html#challenge-overview'
+  Important dates: './index.html#important-workshop-dates'
+  Schedule: './index.html#schedule'
+github:
+  is_project_page: false
